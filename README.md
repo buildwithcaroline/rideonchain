@@ -40,4 +40,9 @@ At the **Canadian National Exhibition(CNE)**, visitors waste hours in long, unpr
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------
   ## Installation Instructions
   - Clone the repository and install dependencies
+  - ```bash
+git clone https://github.com/buildwithcaroline/rideonchain.git
+cd rideonchain/app
+npm install
+npx start
   
