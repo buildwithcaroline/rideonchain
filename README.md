@@ -4,14 +4,14 @@
 ## ProjectDescription
 **RideOnChain** is a mobile app designed to help visitors at the **Canadian National Exhibition(CNE)** make smarter choices about which rides to enjoy by providing **real-time, verifiable crowd data**. Long wait times are one of the biggest frustrations at CNE, where visitors often spend more time in line than actually riding. Unlike existing solutions that rely on estimates or private data feeds, RideOnChain delivers real-time, verifiable information that users can **trust**.
 
-The app uses **XION's Mobile Dev Kit**, **zkTLS verification**, and **on-chain proof logging** to power a ride "Crowd Meter." Each Ride shows a live status(Low, Medium, High) and a computed wait time derived from verified inputs such as ride entry and exit scans. Scanner data is zkTLS-verified and anchored on-chain to ensure accuracy and transparency, so visitors can trust the numbers behind the estimates.
+The app uses **XION's Mobile Dev Kit**, **zkTLS verification**, and **on-chain proof logging** to power a ride "Crowd Meter." Each Ride shows a live status (Low, Medium, High) and a computed wait time derived from verified inputs, such as ride entry and exit scans. Scanner data is zkTLS-verified and anchored on-chain to ensure accuracy and transparency, so visitors can trust the numbers behind the estimates.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Target Audience
 - CNE visitors who want to maximize fun and minimize wait times.
 - CNE organizers who want crowd insights to improve flow and safety.
 
-Going forward, RideOnChain has the potential to scale beyond CNE; first to **other fairs, theme parks, and festivals worldwide** and later expanding to **Toronto TTC Transit System** to help commuters trust real-time crowd data. By bridging everyday experiences with verifiable technology, RideOnChain saves time, reduces frustration, and builds confidence in information that matters most.
+Going forward, RideOnChain has the potential to scale beyond CNE, first to **other fairs, theme parks, and festivals worldwide**, and later to the **Toronto TTC Transit System** to help commuters trust real-time crowd data. By bridging everyday experiences with verifiable technology, RideOnChain saves time, reduces frustration, and builds confidence in information that matters most.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Team Information
@@ -41,8 +41,8 @@ At the **Canadian National Exhibition(CNE)**, visitors waste hours in long, unpr
   ## Installation Instructions
   - Clone the repository and install dependencies
   - ```bash
-git clone https://github.com/buildwithcaroline/rideonchain.git
-cd rideonchain/app
-npm install
-npx start
+  - git clone https://github.com/buildwithcaroline/rideonchain.git
+  - cd rideonchain/app
+  - npm install
+  - npx start
   
